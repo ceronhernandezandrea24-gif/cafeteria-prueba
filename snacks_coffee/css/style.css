@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Oregano:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita que aparezca barra de desplazamiento horizontal */
+}
+h1,h2,h3{
+    text-align: center;
+}
+.contenedor-texto {
+  width: 80%;
+  text-align: center;
+  color: white;
+  background: rgb(168, 89, 33);
+  font-size: 20px;
+  border-radius: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.contenedor-texto img {
+    max-width: 100%;         /* Evita que la imagen desborde el contenedor */
+    height: auto;
+}
+.descripcion-especial{
+    text-align: center;
+    font-family: 'Autour One', cursive;
+}
+.titulo-especial{
+    text-align: center;
+    font-family: 'Oregano', cursive;
+    color: brown;
+}
+.tabla{
+  font-size: 150%;
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center;
+    margin: 0 auto;
+}
+/*Menu en la parte de arriba*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.barra-superior {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 2px solid #800020;
+  padding: 15px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Contenedor de los enlaces */
+.menu-navegacion {
+  display: flex;
+  gap: 30px; /* Espacio entre MENÚ y REWARDS */
+  align-items: center;
+}
+/* Estilo de las palabras MENÚ y REWARDS */
+.enlace-menu {
+  text-decoration: none;
+  color: #333333; /* Color oscuro para el texto */
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px; /* Separación entre letras */
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+/* Efecto al pasar el ratón (hover) */
+.enlace-menu:hover {
+  color: #800020; /* Cambia al color guinda de tu marca al pasar el cursor */
+}
+.lista{
+  font-size: 20px;
+  font-family: 'Chelsea Market', cursive, sans-serif;
+}
+
+
+/* Centra el bloque general y coloca la lista y la imagen lado a lado */
+.lista-menu {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en la pantalla */
+    align-items: center;     /* Alinea verticalmente al centro */ 
+    margin: 0 auto;          /* Centra todo el contenedor en la página */
+}
+/*em de index*/
+.em-parrafo{
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Oregano:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* Pagina Menu*/
+/*Productos*/
+/* Contenedor que pone las tarjetas una al lado de la otra */
+.grid-productos {
+  display: flex;
+  flex-direction: row;      
+  flex-wrap: wrap;           
+  justify-content: center;   /* <-- AGREGA ESTO: Centra las tarjetas horizontalmente en la pantalla */
+  gap: 2%;                   /* Ajustado ligeramente para mejor distribución */
+  align-items: flex-start;
+  margin-top: 2%;
+  width: 100%;               /* <-- AGREGA ESTO: Asegura que ocupe todo el ancho disponible */
+}
+
+/* Tarjeta individual del producto */
+.tarjeta-producto {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;       
+  width: 30%;                /* Tres tarjetas por fila (3 x 30% + espacios ≈ 100%) */
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Control directo sobre tu imagen */
+.imagen-producto {
+  width: 100%;              /* Tamaño uniforme para tus imágenes */
+  height: auto;
+  object-fit: contain;       /* Evita que se deforme */
+  transition: transform 0.2s ease;
+}
+
+/* Efecto al pasar el mouse por la imagen */
+.tarjeta-producto:hover .imagen-producto {
+  transform: scale(1.05);
+}
+
+/* Texto debajo del producto */
+.nombre-categoria {
+  font-family: 'Autor One', sans-serif;
+  font-size: 100%;
+  margin-top: 3%;
+} 
